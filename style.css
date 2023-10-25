@@ -65,10 +65,10 @@ nav .container button a {
 
 .first {
   height: 100vh;
-  background: url("https://compote.slate.com/images/2e21d243-8bde-4748-9653-3bdda262569a.jpg");
+  background:linear-gradient(to left , rgba(0, 0, 0, 0.637) ,rgba(0, 0, 0, 0.669)), url("https://compote.slate.com/images/2e21d243-8bde-4748-9653-3bdda262569a.jpg");
   background-size: cover;
   background-position: bottom;
-}
+} 
 
 .first .container {
   height: 100%;
@@ -79,11 +79,7 @@ nav .container button a {
 
 .first .container .box {
   text-align: center;
-  max-width: 700px;
-}
-
-.first .container .box h1 {
-  font-size: 40px;
+  max-width: 900px;
 }
 
 .first .container .box p {
@@ -95,7 +91,7 @@ nav .container button a {
 
 .first .container .box h1 {
   color: rgb(245, 56, 56);
-  font-size: 40px;
+  font-size: 80px;
 }
 
 .first .container button {
@@ -139,7 +135,8 @@ nav .container button a {
 
 .second .container .left p {
   margin: 20px 0;
-  color: rgb(146, 148, 149);
+  color: rgb(104, 104, 104);
+  font-size: 15px;
 }
 
 .second .container .left button {
@@ -225,7 +222,7 @@ nav .container button a {
 
 footer {
   height: 120px;
-  background: rgb(183, 56, 56);
+  background: rgb(181, 96, 96);
 }
 
 footer .container {
