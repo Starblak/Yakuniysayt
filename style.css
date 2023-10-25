@@ -15,7 +15,7 @@
 }
 
 nav {
-  background: rgb(161, 116, 216);
+  background:brown;
   height: 80px;
   position: sticky;
   left: 0;
@@ -32,7 +32,7 @@ nav .container {
 nav .container .logo {
   width: 100px;
 }
-
+    
 nav .container .logo img {
   width: 100%;
 }
@@ -43,7 +43,7 @@ nav .container ul {
 }
 
 nav .container ul li a {
-  color: rgb(77, 235, 196);
+  color: rgb(235, 230, 239);
 }
 
 nav .container button {
@@ -55,7 +55,7 @@ nav .container button {
 }
 
 nav .container button:hover {
-  background: rgb(186, 1, 1);
+  background: rgb(227, 88, 28);
   border-radius: 10px;
 }
 
@@ -65,7 +65,7 @@ nav .container button a {
 
 .first {
   height: 100vh;
-  background: url("https://www.fonstola.ru/images/201710/fonstola.ru_275520.jpg");
+  background: url("https://i.ytimg.com/vi/v1u9AnWCVxE/hqdefault.jpg");
   background-size: cover;
   background-position: bottom;
 }
@@ -87,14 +87,14 @@ nav .container button a {
 }
 
 .first .container .box p {
-  color: rgb(57, 243, 40);
+  color:rgb(139, 188, 26);
   font-weight: 300;
   font-size: 19px;
   margin: 20px 0;
 }
 
 .first .container .box h1 {
-  color: rgb(18, 224, 204);
+  color: rgb(245, 56, 56);
   font-size: 40px;
 }
 
@@ -118,10 +118,9 @@ nav .container button a {
 .second {
   margin: 80px 0;
 }
-
 .second h1 {
   font-weight: 500;
-  color: rgb(41, 199, 27);
+  color: rgb(234, 35, 35);
   font-size: 30px;
 }
 
@@ -171,7 +170,7 @@ nav .container button a {
 
 .third h1 {
   font-weight: 500;
-  color: rgb(66, 111, 208);
+  color: orangered;
   font-size: 30px;
 }
 
@@ -214,7 +213,7 @@ nav .container button a {
   width: 100%;
   font-size: 18px;
   padding: 10px 0;
-  background: orangered;
+  background:orangered;
   border: none;
   border-radius: 10px;
 }
@@ -226,7 +225,7 @@ nav .container button a {
 
 footer {
   height: 120px;
-  background: blueviolet;
+  background: rgb(183, 56, 56);
 }
 
 footer .container {
@@ -249,6 +248,18 @@ footer .container i {
   .third .container .card{
     width: calc(100% / 3 - 15px);
   }
+
+  .second .container{
+    flex-direction: column;
+  }
+
+  .second .container img{
+    width: 95%;
+  }
+
+  .second .container .left{
+    width: 95%;
+  }
 }
 @media screen and (max-width: 680px) {
   .third .container .card{
@@ -269,4 +280,6 @@ footer .container i {
     flex-direction: column;
     gap: 30px;
   }
-}
+} 
+
+  
